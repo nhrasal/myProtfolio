@@ -1,0 +1,296 @@
+header img{
+	height: 60px;
+	width: 60px;
+	margin: 5px;
+	border-radius: 60px;
+}
+nav{
+	background-color: #000000e8;
+}
+#menu-bar{
+	margin-top: 88px;
+}
+#benner{
+	background-image: url('../images/picture4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 0px;
+	
+}
+#benner img{
+	height: 400px;
+	width: 400px;
+	margin-top: 50px;
+}
+#benner #intro {
+	margin-top: 110px;
+}
+#benner #intro button {
+	border-radius: 25px;
+	padding: 10px 25px;
+}
+#service{
+	background-image: url('../images/img.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.card{
+	background-color: #ffffff47;
+	width: 20rem;
+	height: 15rem;
+	text-align: center;
+}
+.card i{
+	margin-top: 30px;
+}
+#service .card:hover{
+	background:#2196f3
+}
+#project img{
+	height:238px;
+	width:100%;
+	padding: 5px; 
+	position: absolute;
+}
+#project .cntn{
+	position:relative;
+}
+#project .overlay{
+	position:absolute;
+	bottom:10px;
+	background-color: black;
+    left: 10px;
+    right: 10px;
+    padding: 15px;
+    color: white;
+    text-transform: uppercase;
+	display:none;
+}
+#project .cntn:hover .overlay{
+	display:block;
+}
+#review{
+	background-image: url('../images/img2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#review .row {
+	text-align: center;
+	margin-top: 10px;
+	padding: 15px;
+}
+#review i{
+	font-size: 50px;
+}
+#contact{
+	background-image: url('../images/picture3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+#contact form input {
+	width: 100%;
+	background-color: white;
+	border: 1px solid white;
+	padding: 5px;
+	margin: 5px;
+	box-sizing: border-box;
+    border-radius: 5px;
+}
+#contact form textarea {
+	width: 100%;
+	height: 90%;
+	background-color: white;
+	border: 1px solid white;
+	padding: 5px;
+	margin: 5px;
+	color: white;
+	box-sizing: border-box;
+    border-radius: 5px;
+}
+#contact .btn{
+	border-radius: 5px;
+    padding: 15px 35px;
+}
+#contact button{
+	margin-top: 10px;
+	margin-left: 497px;
+
+	
+}
+#contact i{
+	margin-top: 100px;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 150px;
+
+}
+#contact p{
+	text-align: center;
+	color: white;
+	margin-bottom: 100px;
+	
+
+}
+footer i{
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: .8rem;
+    color: #484848;
+}
+#upper{
+	position:fixed;
+	right:25px;
+	bottom:25px;
+	background-color:#17161694;
+	height:30px;
+	width:40px;
+	text-align:center;
+	display:none;
+}
+#upper i{
+	font-size:1rem;
+	color:#000000e8;
+}
+@media(max-width: 576px){
+	nav{
+	background-color:#000000e8;
+}
+	#menu-bar{
+	margin-top: 0px;
+}
+	#benner{
+	background-image: url('../images/picture4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 0px;
+
+}
+#benner img{
+	height: 200px;
+	width: 200px;
+	text-align: left;
+}
+#contact button{
+	margin-top: 10px;
+	margin-left: 0px;
+	
+}
+#contact i{
+	margin-top: 40px;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 150px;
+
+}
+#contact p{
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	
+
+}
+footer{
+	padding: 10px;
+	border-radius: 10px;
+	font-size: .8rem;
+    color: #484848;
+    text-align: center;
+
+}
+}
+@media(max-width: 770px){
+	nav{
+	background-color:#000000e8;
+}
+	#menu-bar{
+	margin-top: 0px;
+}
+	#benner{
+	background-image: url('../images/picture4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 0px;
+
+}
+#benner img{
+	height: 200px;
+	width: 200px;
+	text-align: left;
+}
+#contact button{
+	margin-top: 10px;
+	margin-left: 0px;
+	
+}
+#contact i{
+	margin-top: 40px;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 150px;
+
+}
+#contact p{
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	
+
+}
+footer{
+	padding: 10px;
+	border-radius: 10px;
+	font-size: .8rem;
+    color: #484848;
+    text-align: center;
+
+}
+}
+@media(max-width: 1000px){
+	nav{
+	background-color:#000000e8;
+}
+	#menu-bar{
+	margin-top: 0px;
+}
+	#benner{
+	background-image: url('../images/picture4.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 0px;
+
+}
+#benner img{
+	height: 200px;
+	width: 200px;
+	text-align: left;
+}
+#contact button{
+	margin-top: 10px;
+	margin-left: 0px;
+	
+}
+#contact i{
+	margin-top: 40px;
+	font-size: 50px;
+	text-align: center;
+	margin-left: 150px;
+
+}
+#contact p{
+	text-align: center;
+	color: white;
+	margin-bottom: 40px;
+	
+
+}
+footer{
+	padding: 10px;
+	border-radius: 10px;
+	font-size: .8rem;
+    color: #484848;
+    text-align: center;
+
+}
+}
